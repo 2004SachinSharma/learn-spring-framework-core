@@ -11,6 +11,14 @@ package com.sachin.tightcoupling;
  * ko todna-fodna (Refactoring), jo ki risky hai.
  */
 
+//So main issues of Tight coupling are:
+/*
+1. Non-flexible software design, and hard to maintain,
+2. Scalability issues ,
+3. Testing issues .
+* */
+
+
 public class UserManager {
 
     // ❌ TIGHT COUPLING (Risk Factor):
