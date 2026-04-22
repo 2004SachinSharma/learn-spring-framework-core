@@ -1,23 +1,21 @@
 package com.sachin.Beans_and_Annotations;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
-@Component
-public class Aclass {
+public class Vehicle {
 
-@Bean
-    Object myname(){
-        System.out.println("My name is Sachin!");
-}
+    private String vehicle_name ;
 
-
-    @Bean
-    public Aclass takeObject(){
-        return new Aclass();
+    void setVehicle_name(String vehicle_name){
+        this.vehicle_name = vehicle_name;
     }
+
+    String getVehicle_name(){
+        return this.vehicle_name;
+    }
+
+
 
 }
