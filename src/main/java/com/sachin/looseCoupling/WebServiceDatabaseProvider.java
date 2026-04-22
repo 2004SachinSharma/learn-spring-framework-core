@@ -6,6 +6,5 @@ public class WebServiceDatabaseProvider implements UserDataProvider{
     @Override
     public String getUserDetails() {
         return "From webServiceDatabaseProvider: These are the user-details after interacting with the DB";
-
     }
 }
