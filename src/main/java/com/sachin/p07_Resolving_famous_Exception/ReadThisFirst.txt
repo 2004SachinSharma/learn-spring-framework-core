@@ -1,0 +1,5 @@
+The Solution to this NoUniqueBeanDefinitionException, can be solved by three ways,
+Kindly walk through the packages:
+1. custom_name_to_Beans
+2. PrimaryAnnotation
+3.
